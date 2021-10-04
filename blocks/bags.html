@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #bags {
+            background-color: #fbf7f4;
+            width: 600px;
+            padding: 36px 24px;
+        }
+
+        .category-title {
+            font-size: 12px;
+            font-weight: 700;
+            font-family: Helvetica;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #1a1a1a;
+            padding-bottom: 6px;
+        }
+
+        .title {
+            font-size: 22px;
+            font-family: Georgia;
+            color: #1a1a1a;
+        }
+
+        .items-container {
+            display: grid;
+            gap: 0 18px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        .item {
+            margin-top: 36px;
+        }
+
+        .image {
+            width: 172px;
+            height: 230px;
+            background-color: #ffffff;
+        }
+
+        .text>div {
+            padding-bottom: 6px;
+        }
+
+        .brand {
+            margin-top: 18px;
+            font-size: 11px;
+            font-weight: 700;
+            font-family: Helvetica;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #1a1a1a;
+        }
+
+        .product-name {
+            font-size: 14px;
+            font-family: Helvetica;
+            letter-spacing: 0.6px;
+            color: #1a1a1a;
+        }
+
+        .price {
+            font-size: 14px;
+            font-family: Helvetica;
+            letter-spacing: 0.6px;
+            color: #1a1a1a;
+        }
+
+        .shop-bags-button {
+            background-color: #372d2b;
+        }
+
+        .hr-line {
+            margin-top: 36px;
+            border-top: 1px solid #d3cecc;
+            height: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bags">
+        <div class="category-title">
+            bags
+        </div>
+        <div class="title">
+            To have and hold.
+        </div>
+        <div class="items-container">
+            <div class="item">
+                <div class="image"></div>
+                <div class="text">
+                    <div class="brand">Hermès</div>
+                    <div class="product-name">Orange Kelly Bag</div>
+                    <div class="price">£1,234.00</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image"></div>
+                <div class="text">
+                    <div class="brand">Chanel</div>
+                    <div class="product-name">Classic Quilted Bag</div>
+                    <div class="price">£1,234.00</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image"></div>
+                <div class="text">
+                    <div class="brand">Hermès</div>
+                    <div class="product-name">Evelyne Cross Body Bag</div>
+                    <div class="price">£1,234.00</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image"></div>
+                <div class="text">
+                    <div class="brand">Hermès</div>
+                    <div class="product-name">Orange Kelly Bag</div>
+                    <div class="price">£1,234.00</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image"></div>
+                <div class="text">
+                    <div class="brand">Chanel</div>
+                    <div class="product-name">Classic Quilted Bag</div>
+                    <div class="price">£1,234.00</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image"></div>
+                <div class="text">
+                    <div class="brand">Hermès</div>
+                    <div class="product-name">Evelyne Cross Body Bag</div>
+                    <div class="price">£1,234.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="shop-bags-button">
+            <a href="#" style="color: #ffffff; text-decoration: none">
+              <table>
+                <tr>
+                  <td style="padding-right: 210px;">shop bags</td>
+                  <td style="transform: scale(1.8);">&#10230</td>
+                </tr>
+              </table>
+            </a>
+          </div>
+          <div class="hr-line"></div>
+    </div>
+</body>
+
+</html>

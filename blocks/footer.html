@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #footer {
+            background-color: #372d2b;
+            width: 600px;
+            padding: 36px 24px;
+        }
+
+        .interaction-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .contact,
+        .help {
+            padding-top: 18px;
+            border-top: 1px solid #d3cecc;
+            width: 100%;
+
+            text-transform: uppercase;
+            color: #fbf7f4;
+            font-weight: 700;
+            font-size: 11px;
+            letter-spacing: 2px;
+            font-family: Helvetica;
+        }
+
+        .address-and-links {
+            border-top: 1px solid #d3cecc;
+            margin-top: 36px;
+            padding-top: 18px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Helvetica;
+            color: #ffffff;
+        }
+
+        .link {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .pb-18 {
+            padding-bottom: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="footer">
+        <div class="interaction-wrapper">
+            <div class="contact">contact</div>
+            <div class="help">help</div>
+        </div>
+        <div class="address-and-links">
+            <div class="pb-18">Hardlyever Ltd</div>
+            <div>UK Registered 07002732</div>
+            <div class="pb-18">11 Manchester Square, London, W1U 3PW</div>
+            <span class="link">Unsubscribe</span> | <span class="link">Privacy Policy</span>
+        </div>
+    </div>
+</body>
+
+</html>
