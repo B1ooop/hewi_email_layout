@@ -78,8 +78,36 @@
             color: #1a1a1a;
         }
 
+        .shop-bags-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 72px;
+        }
+
         .shop-bags-button {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 25px;
+            text-decoration: none;
             background-color: #372d2b;
+            width: 362px;
+            height: 48px;
+            line-height: 48px;
+        }
+
+        .shop-bags-button span {
+            display: block;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 700;
+            font-family: Helvetica;
+            letter-spacing: 2px;
+
+        }
+
+        .bag-button-arrow {
+            transform: scale(1.8);
         }
 
         .hr-line {
@@ -148,17 +176,14 @@
                 </div>
             </div>
         </div>
-        <div class="shop-bags-button">
-            <a href="#" style="color: #ffffff; text-decoration: none">
-              <table>
-                <tr>
-                  <td style="padding-right: 210px;">shop bags</td>
-                  <td style="transform: scale(1.8);">&#10230</td>
-                </tr>
-              </table>
+
+        <div class="shop-bags-container">
+            <a class="shop-bags-button" href="#">
+                <span>shop bags</span>
+                <span class="bag-button-arrow">&#10230</span>
             </a>
-          </div>
-          <div class="hr-line"></div>
+        </div>
+        <div class="hr-line"></div>
     </div>
 </body>
 
